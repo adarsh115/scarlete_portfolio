@@ -1,0 +1,23 @@
+body {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Indie Flower', cursive;
+    box-sizing: content-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+}
+
+.div-1 {
+    background-color: lightpink;
+}
+
+.div-2 {
+    background-color: lightseagreen;
+}
