@@ -229,7 +229,6 @@ div.showcase__content {
     font-weight: 600;
     letter-spacing: 0.2rem;
     position: relative;
-    z-index: 1;
 }
 
 .showcase__content--link:link::after,
