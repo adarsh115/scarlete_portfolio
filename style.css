@@ -312,6 +312,14 @@ div.showcase__content {
     color: white;
 }
 
+.showcase__content a {
+    background: rgba(41, 88, 85, 0.707);
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+    z-index: 3;
+}
+
 .showcase__content--link:link,
 .showcase__content--link:visited {
     padding: 1rem 0;
@@ -342,7 +350,21 @@ div.showcase__content {
 .showcase__content--link:hover::after,
 .showcase__content--link:active::after {
     transform: scaleY(1);
-    transform-origin: top;
+    transform-origin: left;
+}
+
+
+/* ***********************************max-width:900px************************* */
+
+@media screen and (max-width:900px) {
+    section#showcase {
+        background-position: 100%;
+        align-items: flex-end;
+    }
+}
+
+section#showcase {
+    background-position: 100%;
 }
 
 @media screen and (max-width: 610px) {}
